@@ -1,7 +1,7 @@
 Molecular Dynamics With Constraints (mdwc) - Python 3 version
 =============================================================
 
-** This is the Python 3 version of the original mdwc code **
+**This is the Python 3 version of the original mdwc code**
 
 The molecular dynamics with constraints (mdwc) package is a command line open source python program. It does constraint molecular dynamics with either NPT (keeping pressure constant with the Parrinello Rahman lagrangian, and keeping the temperature constant with the Nose thermostat) or NVT (keeping the temperature constant with the Nose thermostat). mdwc does constraint dynamics following the SHAKE algorithm, mdwc constraints bond distances, angles, atomic positions, lattice parameters (a, b, c), angles between lattice vectors, and volume of the unit cell.
 
@@ -16,7 +16,7 @@ For its correct functioning mlmd needs the following codes:
 
 2. [Numpy](http://www.numpy.org/ "Numpy") >= 1.17.2
 
-* [Abinit](https://www.abinit.org/) to use the mdwc_
+* [Abinit](https://www.abinit.org/) to use the mdwc3
 
 mdwc user manual
 ----------------
