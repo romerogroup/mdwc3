@@ -36,6 +36,10 @@ Then run the setup.
 
     python setup.py install
 
+Or simply install it with pip.
+
+    pip install mdwc3
+
 Running mdwc3
 ------------
 
