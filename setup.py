@@ -3,12 +3,15 @@ from numpy.distutils.core import Extension
 from numpy.distutils.core import setup
 
 setup(
-    name="mdwc",
+    name="mdwc3",
     description="A Python library for ab-initio molecular dynamics simulations.",
-    version="0.2",
+    version="0.3",
     author="Arturo Hernandez",
     author_email="my@email.com",
+    url="https://github.com/romerogroup/mdwc3",
+    download_url="https://github.com/romerogroup/mdwc3/archive/0.3.tar.gz",
     packages=['mdwc', 'mdwc.software_tools', 'mdwc.MD_suite'],
+    license="LICENSE.txt",
     scripts=['bin/mdwc3'],
     install_requires=["numpy>=1.17.2",],
     ext_modules=[
