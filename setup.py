@@ -13,7 +13,7 @@ setup(
     packages=['mdwc', 'mdwc.software_tools', 'mdwc.MD_suite'],
     license="LICENSE.txt",
     scripts=['bin/mdwc3'],
-    install_requires=["numpy>=1.17.2",],
+    install_requires=["numpy>=1.11.1",],
     ext_modules=[
         Extension(
             name='mdwc.MD_suite.MD_suite',
