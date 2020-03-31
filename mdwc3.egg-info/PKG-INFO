@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: mdwc3
+Version: 0.3
+Summary: A Python library for ab-initio molecular dynamics simulations.
+Home-page: https://github.com/romerogroup/mdwc3
+Author: Arturo Hernandez
+Author-email: my@email.com
+License: LICENSE.txt
+Download-URL: https://github.com/romerogroup/mdwc3/archive/0.3.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN

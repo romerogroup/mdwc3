@@ -18,7 +18,7 @@ setup(
         Extension(
             name='mdwc.MD_suite.MD_suite',
             sources=['mdwc/MD_suite/MD_suite.f90'],
-            extra_compile_args=["-I.", "-O3"],
+            extra_compile_args=["-I.", "-O3", "-sse2"],
         )
     ],
 )
